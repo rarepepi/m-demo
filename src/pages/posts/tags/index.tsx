@@ -55,7 +55,7 @@ const AllTagsPage: React.FC = () => {
           All tags
         </h1>
         <p className="-mb-3 text-zinc-600 dark:text-zinc-400">
-          See all tags created on T3 blog.
+          See all tags created on Maneki blog.
         </p>
       </div>
       <SearchInput setQuery={setQueryValue} placeholder="Search tags" />

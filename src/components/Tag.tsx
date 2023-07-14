@@ -34,11 +34,11 @@ const Tag: React.FC<TagProps> = (props) => {
 
   const checkableTagClasses = `${
     checked
-      ? "bg-emerald-500 text-white"
+      ? "bg-blue-500 text-white"
       : "bg-white dark:bg-zinc-900 dark:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800"
   }`;
 
-  const regularTagClasses = "bg-emerald-500 dark:bg-teal-900 text-white";
+  const regularTagClasses = "bg-blue-500 dark:bg-teal-900 text-white";
 
   return (
     <TagHoverCard tag={tag} containerRef={tagCardContainerRef}>

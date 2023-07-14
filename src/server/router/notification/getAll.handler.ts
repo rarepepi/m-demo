@@ -33,7 +33,7 @@ const notificationText: Record<NotificationTypes, string> = {
   "following-post": "from your following just posted: {{postName}}",
   "first-post":
     "Start by writing your first post! Share a link, create a poll, and more!",
-  welcome: "Welcome to T3 Blog! We are very pleased to have you here!",
+  welcome: "Welcome to Maneki Blog! We are very pleased to have you here!",
   "no-username":
     "You have no username! Set one for yourself on your account page",
   "no-avatar": "You have no avatar! You can add one on your account page",

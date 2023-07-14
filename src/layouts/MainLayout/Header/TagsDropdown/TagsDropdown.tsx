@@ -123,7 +123,7 @@ const TagsDropdown: React.FC = () => {
             </p>
 
             {!searchQuery && (
-              <Link className="text-emerald-500 underline" href="/posts/tags">
+              <Link className="text-blue-500 underline" href="/posts/tags">
                 Come explore some tags!
               </Link>
             )}

@@ -46,7 +46,7 @@ const PrivacyPolicyPage: React.FC = () => {
           <p>
             <strong>Company</strong> (referred to as either &quot;the
             Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in
-            this Agreement) refers to T3 Blog.
+            this Agreement) refers to Maneki Blog.
           </p>
         </li>
         <li>
@@ -105,13 +105,13 @@ const PrivacyPolicyPage: React.FC = () => {
         </li>
         <li>
           <p>
-            <strong>Website</strong> refers to T3 Blog, accessible from{" "}
+            <strong>Website</strong> refers to Maneki Blog, accessible from{" "}
             <a
-              href="https://t3-blog-pi.vercel.app/"
+              href="https://Maneki-blog-pi.vercel.app/"
               rel="noreferrer"
               target="_blank"
             >
-              https://t3-blog-pi.vercel.app/
+              https://Maneki-blog-pi.vercel.app/
             </a>
           </p>
         </li>

@@ -18,7 +18,7 @@ const VerifyEmailPage: React.FC = () => {
 
           <p className="mt-4">
             Check your inbox for your magic link. It provides a{" "}
-            <span className="italic text-emerald-600 dark:text-emerald-400">
+            <span className="italic text-blue-600 dark:text-blue-400">
               password-less{" "}
             </span>
             access to your account.
@@ -27,7 +27,7 @@ const VerifyEmailPage: React.FC = () => {
           <div className="mt-5">
             <Link
               href="/"
-              className="cursor-pointer text-center text-emerald-600 underline hover:text-emerald-500 dark:text-emerald-400"
+              className="cursor-pointer text-center text-blue-600 underline hover:text-blue-500 dark:text-blue-400"
             >
               Go back to home
             </Link>

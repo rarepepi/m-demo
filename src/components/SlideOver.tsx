@@ -73,7 +73,7 @@ const SlideOver: React.FC<Props> = ({ children, openState }) => {
                         src="/static/logo.png"
                         width={45}
                         height={45}
-                        alt="T3 logo"
+                        alt="Maneki logo"
                         className="absolute left-6 top-0"
                       />
 

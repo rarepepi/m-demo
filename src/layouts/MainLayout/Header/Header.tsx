@@ -32,7 +32,12 @@ const Header: React.FC = () => {
   return (
     <header className="relative flex h-10 w-full items-center gap-2">
       <Link href="/" className="hidden xl:block">
-        <Image src="/static/logo.png" width={60} height={60} alt="T3 logo" />
+        <Image
+          src="/static/logo.png"
+          width={60}
+          height={60}
+          alt="Maneki logo"
+        />
       </Link>
 
       <button

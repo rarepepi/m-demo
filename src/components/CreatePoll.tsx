@@ -118,7 +118,7 @@ const CreatePoll: React.FC = () => {
             />
             <button
               type="button"
-              className="absolute right-0 top-1/2 flex h-full -translate-y-1/2 items-center justify-center rounded-r-md bg-emerald-500 px-5 hover:opacity-80"
+              className="absolute right-0 top-1/2 flex h-full -translate-y-1/2 items-center justify-center rounded-r-md bg-blue-500 px-5 hover:opacity-80"
               aria-label="Add poll option"
               title="Add poll option"
               onClick={addNewOption}

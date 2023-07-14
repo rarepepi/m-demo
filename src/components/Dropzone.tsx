@@ -92,7 +92,7 @@ const Dropzone: React.FC = () => {
               <HiOutlineCloudUpload
                 aria-hidden="true"
                 size={37}
-                className={` mb-3 ${isDragAccept ? "text-emerald-500" : ""} ${
+                className={` mb-3 ${isDragAccept ? "text-blue-500" : ""} ${
                   isDragReject ? "text-red-600" : ""
                 } ${!isDragAccept && !isDragReject ? "text-gray-400" : ""}`}
               />
@@ -101,7 +101,7 @@ const Dropzone: React.FC = () => {
                 <p
                   className={`mb-2 text-center text-sm ${
                     isDragReject ? "text-red-600" : ""
-                  } ${isDragAccept ? "text-emerald-500" : ""} ${
+                  } ${isDragAccept ? "text-blue-500" : ""} ${
                     !isDragAccept && !isDragReject
                       ? "text-gray-500 dark:text-gray-400"
                       : ""

@@ -403,13 +403,13 @@ export const PostDetails: React.FC<Props> = ({
                 <Link
                   href={`/users/${data?.user?.id}`}
                   title="Go to user's profile"
-                  className="font-bold text-emerald-700 underline dark:text-emerald-500"
+                  className="font-bold text-blue-700 underline dark:text-blue-500"
                   prefetch={false}
                 >
                   {username}
                 </Link>
                 <ShouldRender if={data?.user?.id === session?.user.id}>
-                  <span className=" text-emerald-700 dark:text-emerald-500">
+                  <span className=" text-blue-700 dark:text-blue-500">
                     {" "}
                     (You)
                   </span>
@@ -438,7 +438,7 @@ export const PostDetails: React.FC<Props> = ({
                     href={data?.link?.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="italic text-emerald-500 underline"
+                    className="italic text-blue-500 underline"
                   >
                     {data?.link?.url}
                   </a>

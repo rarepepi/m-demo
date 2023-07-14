@@ -41,7 +41,7 @@ const TagImagePreview: React.FC<Props> = ({
         />
         <button
           type="button"
-          className="absolute right-2 top-2 cursor-pointer rounded-full bg-emerald-500 p-1 text-neutral-700 transition-colors hover:bg-emerald-400 dark:bg-teal-900 dark:text-neutral-300 dark:hover:bg-emerald-700"
+          className="absolute right-2 top-2 cursor-pointer rounded-full bg-blue-500 p-1 text-neutral-700 transition-colors hover:bg-blue-400 dark:bg-teal-900 dark:text-neutral-300 dark:hover:bg-blue-700"
           aria-label="Delete current image"
         >
           <MdClose

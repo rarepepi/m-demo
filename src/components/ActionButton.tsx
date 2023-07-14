@@ -9,7 +9,7 @@ type Props = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 const iconProps = {
-  className: "text-emerald-500 xl:w-[23px] xl:h-[23px] w-5 h-5",
+  className: "text-blue-500 xl:w-[23px] xl:h-[23px] w-5 h-5",
 };
 
 const icons: Record<Actions, React.ReactNode> = {

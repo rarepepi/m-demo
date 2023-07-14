@@ -254,7 +254,7 @@ const Comment: React.FC<CommentProps> = ({
               <ShouldRender
                 if={comment?.userId === session?.user.id && !!session?.user.id}
               >
-                <span className="ml-1 text-xs text-emerald-500 xl:text-base">
+                <span className="ml-1 text-xs text-blue-500 xl:text-base">
                   {" "}
                   (You)
                 </span>
@@ -290,7 +290,7 @@ const Comment: React.FC<CommentProps> = ({
             <ShouldRender if={!linkToPost && !loading && !hideActions}>
               <button
                 onClick={toggleReplying}
-                className="w-auto text-sm text-emerald-500 underline xl:text-base"
+                className="w-auto text-sm text-blue-500 underline xl:text-base"
               >
                 {replying ? "Stop replying" : "Reply"}
               </button>
@@ -305,7 +305,7 @@ const Comment: React.FC<CommentProps> = ({
               >
                 <span>commented on</span>{" "}
                 <Link
-                  className="w-auto text-emerald-500 underline"
+                  className="w-auto text-blue-500 underline"
                   href={`/posts/${comment?.postId}?highlightedComment=${comment?.id}`}
                   as={`/posts/${comment?.postId}`}
                 >

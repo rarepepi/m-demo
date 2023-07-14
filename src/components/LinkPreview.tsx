@@ -74,11 +74,11 @@ const LinkPreview: React.FC<Props> = ({
                 <p className="word-break-word line-clamp-2 text-sm sm:line-clamp-3">
                   {data?.description
                     ? unescape(data?.description)
-                    : "Link shared on T3 Blog."}
+                    : "Link shared on Maneki Blog."}
                 </p>
               </div>
               <a
-                className="word-break-word mt-1 line-clamp-1 text-sm text-emerald-700 underline dark:text-emerald-500"
+                className="word-break-word mt-1 line-clamp-1 text-sm text-blue-700 underline dark:text-blue-500"
                 target="_blank"
                 rel="noreferrer"
                 href={data?.url}

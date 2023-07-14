@@ -32,7 +32,7 @@ const LikeButton: React.FC<Props> = (props) => {
       aria-label={buttonDescription}
       className={`flex gap-2 ${
         vertical ? "flex-col items-center" : ""
-      } rounded-md bg-emerald-500 px-2 py-1 shadow-lg hover:opacity-80 dark:bg-teal-900 sm:p-2`}
+      } rounded-md bg-blue-500 px-2 py-1 shadow-lg hover:opacity-80 dark:bg-teal-900 sm:p-2`}
       onClick={onClick}
     >
       <ShouldRender if={dislike}>
@@ -40,7 +40,7 @@ const LikeButton: React.FC<Props> = (props) => {
           size={22}
           className={`${
             likedOrDislikedByMe
-              ? "text-emerald-800 dark:text-emerald-400"
+              ? "text-blue-800 dark:text-blue-400"
               : "text-white"
           }`}
         />
@@ -51,7 +51,7 @@ const LikeButton: React.FC<Props> = (props) => {
           size={22}
           className={`${
             likedOrDislikedByMe
-              ? "text-emerald-800 dark:text-emerald-400"
+              ? "text-blue-800 dark:text-blue-400"
               : "text-white"
           }`}
         />
@@ -60,7 +60,7 @@ const LikeButton: React.FC<Props> = (props) => {
       <p
         className={`${
           likedOrDislikedByMe
-            ? "text-emerald-800 dark:text-emerald-400"
+            ? "text-blue-800 dark:text-blue-400"
             : "text-white"
         }`}
       >

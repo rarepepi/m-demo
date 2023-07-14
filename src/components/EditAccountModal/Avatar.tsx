@@ -47,7 +47,7 @@ const Avatar: React.FC<Props> = ({ image }) => {
 
             <div
               role="button"
-              className="absolute bottom-0 right-0 flex items-center justify-center rounded-full bg-emerald-500 p-2 transition-colors hover:bg-emerald-600"
+              className="absolute bottom-0 right-0 flex items-center justify-center rounded-full bg-blue-500 p-2 transition-colors hover:bg-blue-600"
             >
               <MdOutlineAddAPhoto className="text-white" size={20} />
             </div>

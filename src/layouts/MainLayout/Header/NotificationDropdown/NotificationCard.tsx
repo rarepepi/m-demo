@@ -47,7 +47,7 @@ export const NotificationCard = (notification: Notification) => {
   const imageProps = useMemo(() => {
     if (isSystemNotification)
       return {
-        alt: "T3 Logo",
+        alt: "Maneki Logo",
         src: "/static/small-logo.png",
       };
 

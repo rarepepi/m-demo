@@ -115,7 +115,7 @@ const CommentField: React.FC<Props> = ({ parentId, onCommented }) => {
           <p className="prose mt-1 hidden text-right text-sm dark:prose-invert sm:block">
             powered by{" "}
             <a
-              className="text-emerald-500"
+              className="text-blue-500"
               href="https://www.markdownguide.org/basic-syntax/"
               target="_blank"
               rel="noreferrer"

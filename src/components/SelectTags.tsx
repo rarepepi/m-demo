@@ -104,7 +104,7 @@ const SelectTags: React.FC<Props> = ({
       render={({ field }) => (
         <div ref={containerRef}>
           <h2 className="text-2xl">Tags</h2>
-          <p className="sm:block hidden text-sm text-gray-700 dark:text-neutral-300">
+          <p className="hidden text-sm text-gray-700 dark:text-neutral-300 sm:block">
             Hover over a tag for a detailed view.
           </p>
           <ErrorMessage error={error} />
@@ -135,7 +135,7 @@ const SelectTags: React.FC<Props> = ({
               type="button"
               disabled={!inputValue}
               onClick={handleInputConfirm}
-              className="absolute right-0 top-1/2 flex h-full -translate-y-1/2 items-center justify-center rounded-r-md bg-emerald-500 px-5 hover:opacity-80"
+              className="absolute right-0 top-1/2 flex h-full -translate-y-1/2 items-center justify-center rounded-r-md bg-blue-500 px-5 hover:opacity-80"
               aria-label="Add new tag"
               title="Add new tag"
             >

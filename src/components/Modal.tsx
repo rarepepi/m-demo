@@ -7,9 +7,9 @@ const CloseButton = ({ onClick }: { onClick: () => void }) => (
   <button
     onClick={onClick}
     aria-label="Close modal"
-    className="group absolute right-0 top-0 z-[3] rounded-full bg-emerald-500 p-2 transition-colors hover:bg-emerald-400 dark:bg-teal-900 dark:hover:bg-emerald-700"
+    className="group absolute right-0 top-0 z-[3] rounded-full bg-blue-500 p-2 transition-colors hover:bg-blue-400 dark:bg-teal-900 dark:hover:bg-blue-700"
   >
-    <MdClose className="h-5 w-5 text-white transition-colors group-hover:text-emerald-900 dark:group-hover:text-emerald-300" />
+    <MdClose className="h-5 w-5 text-white transition-colors group-hover:text-blue-900 dark:group-hover:text-blue-300" />
   </button>
 );
 

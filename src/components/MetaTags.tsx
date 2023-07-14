@@ -28,7 +28,9 @@ const MetaTags: React.FC<Props> = ({
   );
 
   const formattedTitle = useMemo(() => {
-    const defaultTitle = `${totalUnreads ? `(${totalUnreads})` : ""} T3 Blog`;
+    const defaultTitle = `${
+      totalUnreads ? `(${totalUnreads})` : ""
+    } Maneki Blog`;
 
     if (title) {
       return `${defaultTitle} | ${title}`;
@@ -37,7 +39,7 @@ const MetaTags: React.FC<Props> = ({
     return defaultTitle;
   }, [title, totalUnreads]);
 
-  const DEFAULT_DESCRIPTION = "Blog built with the T3 Stack.";
+  const DEFAULT_DESCRIPTION = "Blog built with the Maneki Stack.";
   const LOGO_PATH = `${baseUrl}/static/square-logo.png`;
   const favicon = `${baseUrl}/static/favicon.ico`;
 

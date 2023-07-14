@@ -6,15 +6,16 @@ const TermsAndConditionsPage: React.FC = () => {
       <h2>
         <strong>Terms and Conditions</strong>
       </h2>
-      <p>Welcome to T3 Blog!</p>
+      <p>Welcome to Maneki Blog!</p>
       <p>
         These terms and conditions outline the rules and regulations for the use
-        of T3 Blog&apos;s Website, located at https://t3-blog-pi.vercel.app/.
+        of Maneki Blog&apos;s Website, located at
+        https://Maneki-blog-pi.vercel.app/.
       </p>
       <p>
         By accessing this website we assume you accept these terms and
-        conditions. Do not continue to use T3 Blog if you do not agree to take
-        all of the terms and conditions stated on this page.
+        conditions. Do not continue to use Maneki Blog if you do not agree to
+        take all of the terms and conditions stated on this page.
       </p>
       <p>
         The following terminology applies to these Terms and Conditions, Privacy
@@ -37,8 +38,8 @@ const TermsAndConditionsPage: React.FC = () => {
         <strong>Cookies</strong>
       </h3>
       <p>
-        We employ the use of cookies. By accessing T3 Blog, you agreed to use
-        cookies in agreement with the T3 Blog&apos;s Privacy Policy.{" "}
+        We employ the use of cookies. By accessing Maneki Blog, you agreed to
+        use cookies in agreement with the Maneki Blog&apos;s Privacy Policy.{" "}
       </p>
       <p>
         Most interactive websites use cookies to let us retrieve the user’s
@@ -51,18 +52,18 @@ const TermsAndConditionsPage: React.FC = () => {
         <strong>License</strong>
       </h3>
       <p>
-        Unless otherwise stated, T3 Blog and/or its licensors own the
-        intellectual property rights for all material on T3 Blog. All
-        intellectual property rights are reserved. You may access this from T3
-        Blog for your own personal use subjected to restrictions set in these
-        terms and conditions.
+        Unless otherwise stated, Maneki Blog and/or its licensors own the
+        intellectual property rights for all material on Maneki Blog. All
+        intellectual property rights are reserved. You may access this from
+        Maneki Blog for your own personal use subjected to restrictions set in
+        these terms and conditions.
       </p>
       <p>You must not:</p>
       <ul>
-        <li>Republish material from T3 Blog</li>
-        <li>Sell, rent or sub-license material from T3 Blog</li>
-        <li>Reproduce, duplicate or copy material from T3 Blog</li>
-        <li>Redistribute content from T3 Blog</li>
+        <li>Republish material from Maneki Blog</li>
+        <li>Sell, rent or sub-license material from Maneki Blog</li>
+        <li>Reproduce, duplicate or copy material from Maneki Blog</li>
+        <li>Redistribute content from Maneki Blog</li>
       </ul>
       <p>
         This Agreement shall begin on the date hereof. Our Terms and Conditions
@@ -74,18 +75,18 @@ const TermsAndConditionsPage: React.FC = () => {
       </p>
       <p>
         Parts of this website offer an opportunity for users to post and
-        exchange opinions and information in certain areas of the website. T3
-        Blog does not filter, edit, publish or review Comments prior to their
-        presence on the website. Comments do not reflect the views and opinions
-        of T3 Blog,its agents and/or affiliates. Comments reflect the views and
-        opinions of the person who post their views and opinions. To the extent
-        permitted by applicable laws, T3 Blog shall not be liable for the
-        Comments or for any liability, damages or expenses caused and/or
-        suffered as a result of any use of and/or posting of and/or appearance
-        of the Comments on this website.
+        exchange opinions and information in certain areas of the website.
+        Maneki Blog does not filter, edit, publish or review Comments prior to
+        their presence on the website. Comments do not reflect the views and
+        opinions of Maneki Blog,its agents and/or affiliates. Comments reflect
+        the views and opinions of the person who post their views and opinions.
+        To the extent permitted by applicable laws, Maneki Blog shall not be
+        liable for the Comments or for any liability, damages or expenses caused
+        and/or suffered as a result of any use of and/or posting of and/or
+        appearance of the Comments on this website.
       </p>
       <p>
-        T3 Blog reserves the right to monitor all Comments and to remove any
+        Maneki Blog reserves the right to monitor all Comments and to remove any
         Comments which can be considered inappropriate, offensive or causes
         breach of these Terms and Conditions.
       </p>
@@ -110,9 +111,9 @@ const TermsAndConditionsPage: React.FC = () => {
         </li>
       </ul>
       <p>
-        You hereby grant T3 Blog a non-exclusive license to use, reproduce, edit
-        and authorize others to use, reproduce and edit any of your Comments in
-        any and all forms, formats or media.
+        You hereby grant Maneki Blog a non-exclusive license to use, reproduce,
+        edit and authorize others to use, reproduce and edit any of your
+        Comments in any and all forms, formats or media.
       </p>
       <h3>
         <strong>Hyperlinking to our Content</strong>
@@ -161,8 +162,8 @@ const TermsAndConditionsPage: React.FC = () => {
         that: (a) the link would not make us look unfavorably to ourselves or to
         our accredited businesses; (b) the organization does not have any
         negative records with us; (c) the benefit to us from the visibility of
-        the hyperlink compensates the absence of T3 Blog; and (d) the link is in
-        the context of general resource information.
+        the hyperlink compensates the absence of Maneki Blog; and (d) the link
+        is in the context of general resource information.
       </p>
       <p>
         These organizations may link to our home page so long as the link: (a)
@@ -173,7 +174,7 @@ const TermsAndConditionsPage: React.FC = () => {
       <p>
         If you are one of the organizations listed in paragraph 2 above and are
         interested in linking to our website, you must inform us by sending an
-        e-mail to T3 Blog. Please include your name, your organization name,
+        e-mail to Maneki Blog. Please include your name, your organization name,
         contact information as well as the URL of your site, a list of any URLs
         from which you intend to link to our Website, and a list of the URLs on
         our site to which you would like to link. Wait 2-3 weeks for a response.
@@ -189,7 +190,7 @@ const TermsAndConditionsPage: React.FC = () => {
         </li>
       </ul>
       <p>
-        No use of T3 Blog&apos;s logo or other artwork will be allowed for
+        No use of Maneki Blog&apos;s logo or other artwork will be allowed for
         linking absent a trademark license agreement.
       </p>
       <h3>

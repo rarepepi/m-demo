@@ -8,7 +8,7 @@ export const Badge: React.FC<Props> = (props) => {
     <span
       {...props}
       className={clsx(
-        "ml-1 select-none bg-emerald-500 p-[2px] px-1 text-xs font-bold text-white shadow-sm dark:bg-emerald-600",
+        "ml-1 select-none bg-blue-500 p-[2px] px-1 text-xs font-bold text-white shadow-sm dark:bg-blue-600",
         props?.className
       )}
     >

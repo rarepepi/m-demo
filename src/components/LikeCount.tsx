@@ -17,14 +17,14 @@ const LikeCount: React.FC<Props> = (props) => {
       } items-center rounded-md border border-emerald-500/20 bg-teal-100 p-1 shadow-md dark:bg-teal-900`}
     >
       <ShouldRender if={dislike}>
-        <AiFillDislike size={22} className="text-emerald-500" />
+        <AiFillDislike size={22} className="text-blue-500" />
       </ShouldRender>
 
       <ShouldRender if={!dislike}>
-        <AiFillLike size={22} className="text-emerald-500" />
+        <AiFillLike size={22} className="text-blue-500" />
       </ShouldRender>
 
-      <p className="text-emerald-500">{label}</p>
+      <p className="text-blue-500">{label}</p>
     </div>
   );
 };

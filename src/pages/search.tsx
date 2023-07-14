@@ -130,7 +130,7 @@ const SearchPage = () => {
         <div className="flex flex-col items-center">
           <Lottie options={LOTTIE_OPTIONS} width={232} height={207} />
           <p className="text-center">
-            Search through users, posts, tags & comments in T3 Blog.
+            Search through users, posts, tags & comments in Maneki Blog.
           </p>
         </div>
       </ShouldRender>

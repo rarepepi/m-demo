@@ -35,7 +35,7 @@ const SignoutPage: React.FC = () => {
               Or{" "}
               <Link
                 href="/"
-                className="font-medium text-emerald-600 underline hover:text-emerald-500 dark:text-emerald-500 dark:hover:text-emerald-400"
+                className="font-medium text-blue-600 underline hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400"
               >
                 go back to home
               </Link>

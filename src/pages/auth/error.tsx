@@ -31,7 +31,7 @@ const ErrorPage = () => {
           <p className="mb-3">An unindentified error has occured.</p>
           <Link
             href="/"
-            className="font-medium text-emerald-600 underline hover:text-emerald-500 dark:text-emerald-400"
+            className="font-medium text-blue-600 underline hover:text-blue-500 dark:text-blue-400"
           >
             Back to home
           </Link>
@@ -58,7 +58,7 @@ const ErrorPage = () => {
           <p className="mb-4">You do not have permission to sign in.</p>
           <Link
             href="/auth/signin"
-            className="font-medium text-emerald-600 underline hover:text-emerald-500 dark:text-emerald-400"
+            className="font-medium text-blue-600 underline hover:text-blue-500 dark:text-blue-400"
           >
             Sign in
           </Link>
@@ -76,7 +76,7 @@ const ErrorPage = () => {
       ),
       signin: (
         <Link
-          className="font-medium text-emerald-600 underline hover:text-emerald-500 dark:text-emerald-400"
+          className="font-medium text-blue-600 underline hover:text-blue-500 dark:text-blue-400"
           href="/auth/signin"
         >
           Sign in

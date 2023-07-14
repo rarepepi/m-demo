@@ -18,7 +18,7 @@ function App({ Component, pageProps: { session, ...pageProps } }: AppProps) {
     <SessionProvider session={session}>
       <ThemeProvider attribute="class">
         <Head>
-          <title>T3 Blog</title>
+          <title>Maneki Blog</title>
           <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
         </Head>
         <RouterProgressBar />

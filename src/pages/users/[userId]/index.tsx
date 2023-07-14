@@ -250,7 +250,7 @@ const UserPage: NextPage<
           <ShouldRender if={loggedUserIsProfileOwner || loggedUserIsAdmin}>
             <div
               className={clsx(
-                "absolute bottom-0 right-7 flex items-center justify-center rounded-full bg-emerald-500 p-2 shadow-2xl",
+                "absolute bottom-0 right-7 flex items-center justify-center rounded-full bg-blue-500 p-2 shadow-2xl",
                 loadingUser && "pointer-events-none opacity-80"
               )}
               role="button"
@@ -265,7 +265,7 @@ const UserPage: NextPage<
               >
                 <Popover.Item
                   title="Edit account"
-                  icon={<MdEditNote size={21} className="text-emerald-500" />}
+                  icon={<MdEditNote size={21} className="text-blue-500" />}
                   subtitle="Change your avatar & details"
                   onClick={toggleEditModal(true)}
                 />
@@ -274,10 +274,7 @@ const UserPage: NextPage<
                   title="Code of conduct"
                   gap="2"
                   icon={
-                    <MdOutlineTextSnippet
-                      size={16}
-                      className="text-emerald-500"
-                    />
+                    <MdOutlineTextSnippet size={16} className="text-blue-500" />
                   }
                   subtitle="Read our code of conduct"
                   onClick={redirectToTerms("conduct")}
@@ -287,10 +284,7 @@ const UserPage: NextPage<
                   title="Privacy Policy"
                   gap="2"
                   icon={
-                    <MdOutlineTextSnippet
-                      size={16}
-                      className="text-emerald-500"
-                    />
+                    <MdOutlineTextSnippet size={16} className="text-blue-500" />
                   }
                   subtitle="Read our privacy terms"
                   onClick={redirectToTerms("privacy")}
@@ -299,7 +293,7 @@ const UserPage: NextPage<
                 <Popover.Item
                   title="Delete account"
                   gap="1"
-                  icon={<MdDelete size={18} className="text-emerald-500" />}
+                  icon={<MdDelete size={18} className="text-blue-500" />}
                   subtitle="Delete your account"
                   onClick={showDeleteConfirm}
                 />
@@ -312,9 +306,7 @@ const UserPage: NextPage<
             <p className="flex items-center justify-center gap-1 text-xl">
               {username}
               <ShouldRender if={loggedUserIsProfileOwner}>
-                <span className="text-emerald-700 dark:text-emerald-500">
-                  (You)
-                </span>
+                <span className="text-blue-700 dark:text-blue-500">(You)</span>
               </ShouldRender>
               <ShouldRender if={profileIsAdmin}>
                 <Badge title={`${username} is a site admin`}>Admin</Badge>

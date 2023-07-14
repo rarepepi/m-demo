@@ -230,11 +230,11 @@ export const SidebarContent = () => {
             {packageJson.version} ·{" "}
             <a
               className="underline"
-              href="https://github.com/leojuriolli7/t3-blog"
+              href="https://twitter.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Github
+              Twitter
             </a>
           </p>
         </div>

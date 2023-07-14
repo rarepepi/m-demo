@@ -63,13 +63,13 @@ const AttachmentPreview: React.FC<Props> = ({
           className="group relative h-16 w-16 min-w-[64px]"
         >
           <ShouldRender if={type === "document"}>
-            <div className="flex h-16 w-16 items-center justify-center bg-emerald-500 dark:bg-emerald-700">
+            <div className="flex h-16 w-16 items-center justify-center bg-blue-500 dark:bg-blue-700">
               <RiFileTextFill className="text-white" size={27} />
             </div>
           </ShouldRender>
 
           <ShouldRender if={type === "audio"}>
-            <div className="group flex h-16 w-16 cursor-pointer items-center justify-center bg-emerald-500 dark:bg-emerald-700">
+            <div className="group flex h-16 w-16 cursor-pointer items-center justify-center bg-blue-500 dark:bg-blue-700">
               <audio ref={audioRef} hidden src={file?.url} />
               <MdAudiotrack
                 className="text-white  group-hover:hidden"

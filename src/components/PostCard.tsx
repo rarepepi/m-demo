@@ -67,7 +67,7 @@ const PostCard: React.FC<Props> = ({ post, loading = false }) => {
             by{" "}
             <Link
               href={`/users/${post?.userId}`}
-              className="font-bold text-emerald-600 underline dark:text-emerald-500"
+              className="font-bold text-blue-600 underline dark:text-blue-500"
               prefetch={false}
             >
               {username}

@@ -73,7 +73,7 @@ const LinkInput: React.FC<Props> = ({ initialLink }) => {
             url: data.url,
             description: data?.description
               ? unescape(data?.description)
-              : "Link shared on T3 blog.",
+              : "Link shared on Maneki blog.",
             ...(data?.publisher && {
               publisher: data?.publisher,
             }),
